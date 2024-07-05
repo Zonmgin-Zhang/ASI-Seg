@@ -16,7 +16,11 @@ pip install -r requirements.txt
 
 ## Dataset
 
-The datasets we used in our experiments are [endoivs 2018](https://cataracts2018.grand-challenge.org/data/) and [endoivs 2017](https://endovissub2017-kidneyboundarydetection.grand-challenge.org/Data/). For EndoVis2017, we use [robot-surgery-segmentation](https://github.com/ternaus/robot-surgery-segmentation) as our pre-processing strategies and cross-validation splits. For EndoVis2018, we use [ISINet](https://github.com/BCV-Uniandes/ISINet) as the instrument type segmentation annotation.
+The datasets we used in our experiments are [endoivs 2018](https://cataracts2018.grand-challenge.org/data/) and [endoivs 2017](https://endovissub2017-kidneyboundarydetection.grand-challenge.org/Data/). 
+
+For EndoVis2017, we use [robot-surgery-segmentation](https://github.com/ternaus/robot-surgery-segmentation) as our pre-processing strategies and cross-validation splits.
+
+For EndoVis2018, we use [ISINet](https://github.com/BCV-Uniandes/ISINet) as the instrument type segmentation annotation.
 
 ## Checkpoints
 
