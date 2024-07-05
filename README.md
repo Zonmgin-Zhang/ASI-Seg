@@ -18,6 +18,8 @@ Hongliang Ren, Hongbin Liu},
 <div align=center>
 <img src="./docs/framework.png"> 
 </div>
+
+
 ## Installation
 The code requires `python>=3.8`, as well as `pytorch>=1.7` and `torchvision>=0.8`. For this project, `python=3.8`, `pytorch=1.11.0`, and `torchvision=0.12.0` are used; run the following command in the root directory of this project:
 ```
