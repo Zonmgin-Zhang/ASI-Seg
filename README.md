@@ -19,7 +19,7 @@ Hongliang Ren, Hongbin Liu},
 <img src="./docs/framework.png"> 
 </div>
 ## Installation
-The code requires `python>=3.8`, as well as `pytorch>=1.7` and `torchvision>=0.8`. For this project, `python=3.8`, `pytorch=1.11.0`, and `torchvision=0.12.0` are used., run the following command in the root directory of this project:
+The code requires `python>=3.8`, as well as `pytorch>=1.7` and `torchvision>=0.8`. For this project, `python=3.8`, `pytorch=1.11.0`, and `torchvision=0.12.0` are used; run the following command in the root directory of this project:
 ```
 cd ./ASI
 pip install -r requirements.txt
@@ -31,9 +31,18 @@ The datasets we used in our experiments are [endoivs 2018](https://cataracts2018
 
 ## Checkpoints
 
-In ASI-Seg, `vit_h` is used. 
+In ASI-Seg, we used `vit_h` for SAM (Segmentation Anything Model), and CLIP (Contrastive Language-Image Pre-Training).
 
-Please find the checkpoint of SAM in `vit_h` version [here](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth). 
+Please see the download link of the checkpoint of SAM in the `vit_h` version [here](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth).
+
+Please run the following command in the root directory of this project to download CLIP:
+
+```
+cd ./ASI
+git clone https://github.com/openai/CLIP.git
+```
+
+
 
 ## Train
 
