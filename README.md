@@ -1,18 +1,5 @@
 # ASI-Seg: Audio-Driven Surgical Instrument Segmentation with Surgeon Intention Understanding
 
-If you use our code in your work, please star our repo and cite our paper.
-
-```
-@inproceedings{chen2024iros,
-	title={{ASI-Seg: Audio-Driven Surgical Instrument Segmentation with Surgeon Intention Understanding}},
-	author={Zhen Chen, Zongming Zhang, Wenwu Guo, Xingjian Luo, Long Bai, Jinlin Wu,
-Hongliang Ren, Hongbin Liu},
-	booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-        pages={7606-7613},
-	year={2024}
-}
-```
-
 ## Overview
 
 <div align=center>
@@ -62,3 +49,18 @@ cd ./ASI
 python inference.py
 ```
 
+
+## Citation
+
+If you use our code or paper in your work, please cite our paper.
+
+```
+@inproceedings{chen2024iros,
+	title={{ASI-Seg: Audio-Driven Surgical Instrument Segmentation with Surgeon Intention Understanding}},
+	author={Zhen Chen, Zongming Zhang, Wenwu Guo, Xingjian Luo, Long Bai, Jinlin Wu,
+Hongliang Ren, Hongbin Liu},
+	booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+        pages={7606-7613},
+	year={2024}
+}
+```
