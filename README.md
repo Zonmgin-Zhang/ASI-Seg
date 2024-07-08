@@ -64,7 +64,6 @@ If you use our code or paper in your work, please cite our paper.
 	author={Zhen Chen, Zongming Zhang, Wenwu Guo, Xingjian Luo, Long Bai, Jinlin Wu,
 Hongliang Ren, Hongbin Liu},
 	booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-        pages={7606-7613},
 	year={2024}
 }
 ```
